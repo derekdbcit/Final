@@ -198,3 +198,11 @@ input[type=text]:focus {
  background: var(--darkGreen);
  color: var(--white);
 }
+
+/* Responsive Design */
+
+@media screen and (max-width: 600px) {
+  #main {  
+    display: flex;
+  }
+};

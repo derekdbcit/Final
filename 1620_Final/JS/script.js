@@ -1,3 +1,5 @@
+// Light or Dark Mode
+
 var toggleTheme = document.getElementsByClassName("toggle");
 
 toggleTheme.onClick = function() {
@@ -10,6 +12,8 @@ toggleTheme.onClick = function() {
 
 };
 
+// Submit Fake Email
+
 var submitFakeEmail = document.getElementById("frm-btn");
 
 submitFakeEmail.onClick = function() {
@@ -18,4 +22,4 @@ submitFakeEmail.onClick = function() {
     console.log(document.getElementById("email").value);
     console.log(document.getElementById("msg").value);
 
-}
+};
